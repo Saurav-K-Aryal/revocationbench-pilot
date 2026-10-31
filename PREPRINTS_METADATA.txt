@@ -1,0 +1,6 @@
+Subject: Computer Science and Mathematics
+Topic within Subject: Security Systems
+Optional MDPI Topic: Recent Advances in Security, Privacy, and Trust, 2nd Edition
+Topic URL: https://www.mdpi.com/topics/044g6136h2
+Scope fit: System security, AI/ML security, privacy, cloud security are explicit scope areas. Not an assertion that this Topic appears in every Preprints account's dropdown.
+These are recommended submission metadata, not a completed submission.

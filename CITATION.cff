@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and this research artifact."
+type: software
+title: "RevocationBench: A Local Fault-Injection Pilot for Delegated Agent Authority"
+authors:
+  - family-names: Aryal
+    given-names: "Saurav K."
+    affiliation: Howard University
+date-released: 2026-10-31
+url: https://github.com/Saurav-K-Aryal/revocationbench-pilot
+repository-code: https://github.com/Saurav-K-Aryal/revocationbench-pilot

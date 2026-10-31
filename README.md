@@ -48,3 +48,9 @@ All results depend on authored forced schedules, trusted complete mediation, and
 ## References and provenance
 
 Five primary sources were verified on October 31, 2026: AgentDojo and Progent on arXiv; Cedar on Amazon Science and the official SPLASH/OOPSLA program; official SQLite isolation documentation; and IETF's experimental bounded-capability-receipts draft-06. The Internet-Draft is explicitly work in progress, not a standard. The observed run was independently read back from all 160 local-trial SQLite databases and both external controls before publication; the standalone public runner was rerun and matched all effect-count metrics.
+
+## Preprints.org classification
+
+Subject: **Computer Science and Mathematics**. Topic within Subject: **Security Systems**.
+
+Optional MDPI Topic: [Recent Advances in Security, Privacy, and Trust, 2nd Edition](https://www.mdpi.com/topics/044g6136h2). The detailed classification is in `PREPRINTS_METADATA.txt`. These metadata do not imply a submission.
