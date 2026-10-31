@@ -86,6 +86,39 @@
       "source_sha256": "d8bf9e4c13a865b054eb562e899c1f0ab4c4d74fc9472eb167de6db7985f261e",
       "published_sha256": "d8bf9e4c13a865b054eb562e899c1f0ab4c4d74fc9472eb167de6db7985f261e",
       "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/02_revocationbench/README.md",
+      "published": "README.md",
+      "source_sha256": "14e9a9cca479f4293f76d657dd86dcbfcfdc989dca4093a3ea57db6d0cc1242e",
+      "published_sha256": "14e9a9cca479f4293f76d657dd86dcbfcfdc989dca4093a3ea57db6d0cc1242e",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive"
+    },
+    {
+      "source": "outputs/pilot_papers/02_revocationbench/PREPRINTS_METADATA.txt",
+      "published": "PREPRINTS_METADATA.txt",
+      "source_sha256": "6e47ef646210eb49669f9b1e221affdd3e20ba353ba74a97080dadb0c73245bb",
+      "published_sha256": "6e47ef646210eb49669f9b1e221affdd3e20ba353ba74a97080dadb0c73245bb",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive"
+    },
+    {
+      "source": "work/public_repos/revocationbench-pilot/CITATION.cff",
+      "published": "CITATION.cff",
+      "source_sha256": "46b311d0af7159c66a0572480433df0e3a927e2a376cdec14c0b824b062010aa",
+      "published_sha256": "46b311d0af7159c66a0572480433df0e3a927e2a376cdec14c0b824b062010aa",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive"
+    },
+    {
+      "source": "outputs/pilot_papers/02_revocationbench_overleaf.zip",
+      "published": "overleaf.zip",
+      "source_sha256": "759091939125d431fcac7acbde313f9ca8ab0a9f3465e4fb96d7296bdee7cda7",
+      "published_sha256": "759091939125d431fcac7acbde313f9ca8ab0a9f3465e4fb96d7296bdee7cda7",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive"
     }
-  ]
+  ],
+  "release_update": "Refreshed manuscript/metadata and citation record; measured data preserved."
 }
