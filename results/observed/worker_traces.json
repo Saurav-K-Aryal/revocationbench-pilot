@@ -1,0 +1,2722 @@
+[
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 0.8595
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.742791
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 0.914625
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 1.712208
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.065083
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.902709
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.04475
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.811834
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.472875
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.05
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.514917
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.182375
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.447333
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.909959
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.507875
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.047333
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.458083
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.519917
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.448708
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.472833
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.091833
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.255834
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.303792
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.824
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.509792
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.947209
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.692542
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.264708
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.578375
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.802625
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.769833
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.948834
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.813291
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.521
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.005708
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.528917
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.837375
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.541125
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.779667
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.58
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.701584
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 0.612916
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.990292
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.985167
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.445
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.19525
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.48775
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.035792
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.956917
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.852666
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.135916
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.702625
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.160084
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.471042
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.866542
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.341875
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.735791
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.035417
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.806792
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.002667
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.81675
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.96875
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 0.706333
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.664083
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.708625
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.331583
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.658083
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.378584
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.148708
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.269708
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.836167
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 1.923333
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.005084
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.582166
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.912375
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.602459
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "naive_preflight",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.95875
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.722083
+      }
+    ]
+  },
+  {
+    "scenario": "over_budget",
+    "arm": "transactional_gateway",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.705417
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.624125
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.0385
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.00725
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.047291
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.014334
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.166542
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.012792
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.058125
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.919541
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.582917
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.124208
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.610541
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.184916
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.711667
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.995291
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.541709
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.99175
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.60825
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.725
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.754625
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.970584
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.213125
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.323291
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.383792
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.58775
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.8145
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.137917
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.604292
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.059667
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.801542
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 4.100417
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.763625
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 4.100792
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 0.718875
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.385
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.867459
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.514459
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.779791
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.551667
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 5.14925
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.8415
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.954125
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.775834
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.047625
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 1.910792
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.505
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.163333
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.447833
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.1905
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.895959
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.874375
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.041042
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.034541
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.189458
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.592041
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.27575
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.519792
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.857542
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.145792
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.837042
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.121833
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 0.681875
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.703541
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.2405
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 4.327417
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.612584
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.171
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.790541
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.350667
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.869458
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.069125
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.164834
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.35375
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.010917
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.587917
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.931833
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.444875
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "naive_preflight",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.176458
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.980666
+      }
+    ]
+  },
+  {
+    "scenario": "within_budget",
+    "arm": "transactional_gateway",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.057292
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.925208
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.158417
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.02725
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.106917
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 2.884459
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.08325
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.920709
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.174708
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 2.904083
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.740791
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.326917
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 1.483625
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.207959
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.629375
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.051208
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 3.578166
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.196917
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.374916
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.470958
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.70225
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 2.721583
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.302084
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.403459
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 3.406375
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.7835
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.807209
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.312916
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 3.612709
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.206292
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.868
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.996583
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.08275
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 4.175792
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.095209
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.784917
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.145625
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 2.659875
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.960666
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 5.130167
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 5.107792
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 4.027958
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 4.1235
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.008334
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 3.945042
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.985417
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.261042
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.894292
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.822083
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 3.253458
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 0.906083
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.771875
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.138959
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 2.917125
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.851459
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.29175
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 2.928708
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.446084
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.903708
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.195542
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.794833
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 1.9115
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 0.661417
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.720875
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 0.844667
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 2.770958
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.823583
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.455417
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 3.754458
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.498417
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 1.820542
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.0505
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.428584
+      },
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 4.605916
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 4.211667
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.815709
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 4.167833
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.715333
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "naive_preflight",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 4.125334
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 2.934959
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "arm": "transactional_gateway",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "same",
+        "decision": "duplicate_no_effect",
+        "latency_ms": 4.064333
+      },
+      {
+        "op": "same",
+        "decision": "executed",
+        "latency_ms": 3.01925
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.288291
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.023792
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 0,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 1.071083
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.052042
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.454292
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.315584
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 1,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.346333
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.2405
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.914625
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.458709
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 2,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.041333
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.567167
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.940583
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.340959
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 3,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.998334
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.414625
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.82125
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.911042
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 4,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.6795
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.855458
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.654834
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.832041
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 5,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.424292
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 1.517375
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.095333
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.439875
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 6,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.942209
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.310292
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 1.8285
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.174917
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 7,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.135292
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 4.441667
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.281459
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.025166
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 8,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.145542
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.841708
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 5.45
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 4.111875
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 9,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.97525
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.775041
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.41
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.2355
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 10,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.092875
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 0.9505
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.804875
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.433084
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 11,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.711542
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.413458
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.331917
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.296
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 12,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.258791
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.188125
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.261708
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.515708
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 13,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 4.380084
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.707166
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.136166
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.476333
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 14,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 1.828084
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.182917
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.165792
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 4.004208
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 15,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 2.104541
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 4.208916
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.756417
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.3755
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 16,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.972625
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.548209
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 2.191667
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.393709
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 17,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 1.910791
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.169542
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 4.429541
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 3.995166
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 18,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 3.073833
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 2.499125
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "naive_preflight",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "executed",
+        "latency_ms": 3.430167
+      },
+      {
+        "op": "two",
+        "decision": "executed",
+        "latency_ms": 2.178625
+      }
+    ]
+  },
+  {
+    "scenario": "ancestor_revoked",
+    "arm": "transactional_gateway",
+    "replicate": 19,
+    "workers": [
+      {
+        "op": "one",
+        "decision": "denied",
+        "latency_ms": 4.596625
+      },
+      {
+        "op": "two",
+        "decision": "denied",
+        "latency_ms": 3.250917
+      }
+    ]
+  }
+]

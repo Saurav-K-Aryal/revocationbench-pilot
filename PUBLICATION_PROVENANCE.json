@@ -1,0 +1,91 @@
+{
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation, execution, and manuscript preparation.",
+  "scope": "Authored local pilot. No funding application or unconfirmed faculty participation is published.",
+  "excluded": "Model weights/checkpoints, toolchain binaries, caches, virtual environments, git fixture internals, compiled Java classes, databases, and generated third-party runtimes.",
+  "files": [
+    {
+      "source": "pilots/__init__.py",
+      "published": "pilots/__init__.py",
+      "source_sha256": "7542e3a76d06725e5ba1edb2c773602b44f74adc06ed8f500f084a9204b1e114",
+      "published_sha256": "7542e3a76d06725e5ba1edb2c773602b44f74adc06ed8f500f084a9204b1e114",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/common.py",
+      "published": "pilots/common.py",
+      "source_sha256": "6744acd4f518fa14310fecc3f5756183bb6cb7c366f442017cf942991067dc9f",
+      "published_sha256": "6744acd4f518fa14310fecc3f5756183bb6cb7c366f442017cf942991067dc9f",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/experiments/__init__.py",
+      "published": "pilots/experiments/__init__.py",
+      "source_sha256": "5dd5c0a0f5a4e569b9f54d0a61c1ae38b88b82979b030378331eaa9fe7c4fb9b",
+      "published_sha256": "5dd5c0a0f5a4e569b9f54d0a61c1ae38b88b82979b030378331eaa9fe7c4fb9b",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/experiments/p02_revocation.py",
+      "published": "pilots/experiments/p02_revocation.py",
+      "source_sha256": "fe00c8cdc61a310216603298aed3cfdba6f3ccd14b5aa957d0393416f59f631e",
+      "published_sha256": "fe00c8cdc61a310216603298aed3cfdba6f3ccd14b5aa957d0393416f59f631e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/unattended-20261031-130310-7SNZcu/offline/02/external_boundary.json",
+      "published": "results/observed/external_boundary.json",
+      "source_sha256": "35dad452c43de97482a293d31e679c008b0e424e2395bc6ccc7aa3bb9dd98c05",
+      "published_sha256": "35dad452c43de97482a293d31e679c008b0e424e2395bc6ccc7aa3bb9dd98c05",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/unattended-20261031-130310-7SNZcu/offline/02/result.json",
+      "published": "results/observed/result.json",
+      "source_sha256": "1896b107742d32d0559e8c95086026e4aa7003b026193895c23df671b6413f6c",
+      "published_sha256": "efd76fb8b9677ba64ac013fe8219af174dade1e4a1afb437163c96401868dd87",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/unattended-20261031-130310-7SNZcu/offline/02/trials.csv",
+      "published": "results/observed/trials.csv",
+      "source_sha256": "eb9d00c86b6065689d19d76c36b95912defe20ddc185ed3fb6dcd26a03b13359",
+      "published_sha256": "eb9d00c86b6065689d19d76c36b95912defe20ddc185ed3fb6dcd26a03b13359",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/unattended-20261031-130310-7SNZcu/offline/02/worker_traces.json",
+      "published": "results/observed/worker_traces.json",
+      "source_sha256": "d8bf9e4c13a865b054eb562e899c1f0ab4c4d74fc9472eb167de6db7985f261e",
+      "published_sha256": "d8bf9e4c13a865b054eb562e899c1f0ab4c4d74fc9472eb167de6db7985f261e",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/02_revocationbench/data/external_boundary.json",
+      "published": "data/external_boundary.json",
+      "source_sha256": "35dad452c43de97482a293d31e679c008b0e424e2395bc6ccc7aa3bb9dd98c05",
+      "published_sha256": "35dad452c43de97482a293d31e679c008b0e424e2395bc6ccc7aa3bb9dd98c05",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/02_revocationbench/data/result.json",
+      "published": "data/result.json",
+      "source_sha256": "1896b107742d32d0559e8c95086026e4aa7003b026193895c23df671b6413f6c",
+      "published_sha256": "efd76fb8b9677ba64ac013fe8219af174dade1e4a1afb437163c96401868dd87",
+      "transformation": "workspace prefix normalized"
+    },
+    {
+      "source": "outputs/pilot_papers/02_revocationbench/data/trials.csv",
+      "published": "data/trials.csv",
+      "source_sha256": "eb9d00c86b6065689d19d76c36b95912defe20ddc185ed3fb6dcd26a03b13359",
+      "published_sha256": "eb9d00c86b6065689d19d76c36b95912defe20ddc185ed3fb6dcd26a03b13359",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/02_revocationbench/data/worker_traces.json",
+      "published": "data/worker_traces.json",
+      "source_sha256": "d8bf9e4c13a865b054eb562e899c1f0ab4c4d74fc9472eb167de6db7985f261e",
+      "published_sha256": "d8bf9e4c13a865b054eb562e899c1f0ab4c4d74fc9472eb167de6db7985f261e",
+      "transformation": "none"
+    }
+  ]
+}

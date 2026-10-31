@@ -1,0 +1,143 @@
+{
+  "source_files": {
+    "trials.csv": {
+      "sha256": "eb9d00c86b6065689d19d76c36b95912defe20ddc185ed3fb6dcd26a03b13359",
+      "bytes": 12608
+    },
+    "external_boundary.json": {
+      "sha256": "35dad452c43de97482a293d31e679c008b0e424e2395bc6ccc7aa3bb9dd98c05",
+      "bytes": 943
+    },
+    "result.json": {
+      "sha256": "efd76fb8b9677ba64ac013fe8219af174dade1e4a1afb437163c96401868dd87",
+      "bytes": 5304
+    },
+    "worker_traces.json": {
+      "sha256": "d8bf9e4c13a865b054eb562e899c1f0ab4c4d74fc9472eb167de6db7985f261e",
+      "bytes": 51087
+    }
+  },
+  "scenario_counts": {
+    "over_budget": {
+      "naive_preflight": {
+        "trials": 20,
+        "violations": 20,
+        "authorized_matches": 0,
+        "effects": 40,
+        "effect_amount": 2400,
+        "ledger_total": 1200
+      },
+      "transactional_gateway": {
+        "trials": 20,
+        "violations": 0,
+        "authorized_matches": 20,
+        "effects": 20,
+        "effect_amount": 1200,
+        "ledger_total": 1200
+      }
+    },
+    "within_budget": {
+      "naive_preflight": {
+        "trials": 20,
+        "violations": 0,
+        "authorized_matches": 20,
+        "effects": 40,
+        "effect_amount": 2000,
+        "ledger_total": 1000
+      },
+      "transactional_gateway": {
+        "trials": 20,
+        "violations": 0,
+        "authorized_matches": 20,
+        "effects": 40,
+        "effect_amount": 2000,
+        "ledger_total": 2000
+      }
+    },
+    "duplicate": {
+      "naive_preflight": {
+        "trials": 20,
+        "violations": 20,
+        "authorized_matches": 0,
+        "effects": 40,
+        "effect_amount": 1600,
+        "ledger_total": 800
+      },
+      "transactional_gateway": {
+        "trials": 20,
+        "violations": 0,
+        "authorized_matches": 20,
+        "effects": 20,
+        "effect_amount": 800,
+        "ledger_total": 800
+      }
+    },
+    "ancestor_revoked": {
+      "naive_preflight": {
+        "trials": 20,
+        "violations": 20,
+        "authorized_matches": 0,
+        "effects": 40,
+        "effect_amount": 1200,
+        "ledger_total": 600
+      },
+      "transactional_gateway": {
+        "trials": 20,
+        "violations": 0,
+        "authorized_matches": 20,
+        "effects": 0,
+        "effect_amount": 0,
+        "ledger_total": 0
+      }
+    }
+  },
+  "totals": {
+    "naive_preflight": {
+      "trials": 80,
+      "violations": 60,
+      "authorized_matches": 20,
+      "effects": 160,
+      "effect_amount": 7200,
+      "ledger_total": 3600
+    },
+    "transactional_gateway": {
+      "trials": 80,
+      "violations": 0,
+      "authorized_matches": 80,
+      "effects": 80,
+      "effect_amount": 4000,
+      "ledger_total": 4000
+    }
+  },
+  "external_boundary": [
+    {
+      "arm": "naive_preflight",
+      "scenario": "external_response_lost",
+      "attempts": 2,
+      "actual_external_effects": 2,
+      "unresolved_operations": 0,
+      "reserved_amount": 0,
+      "decisions": [
+        "response_lost_unknown",
+        "response_lost_unknown"
+      ],
+      "confirmed_task_completion": false,
+      "interpretation": "Boundary control: refusing an unsafe retry leaves an unknown outcome; no exactly-once claim for arbitrary external endpoints."
+    },
+    {
+      "arm": "transactional_gateway",
+      "scenario": "external_response_lost",
+      "attempts": 2,
+      "actual_external_effects": 1,
+      "unresolved_operations": 1,
+      "reserved_amount": 40,
+      "decisions": [
+        "response_lost_unknown",
+        "unknown_no_retry"
+      ],
+      "confirmed_task_completion": false,
+      "interpretation": "Boundary control: refusing an unsafe retry leaves an unknown outcome; no exactly-once claim for arbitrary external endpoints."
+    }
+  ],
+  "interpretation": "Descriptive counts from related authored schedules; no population confidence intervals or distributed guarantee."
+}

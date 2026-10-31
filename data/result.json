@@ -1,0 +1,100 @@
+{
+  "experiment_id": "02",
+  "topic": "AI for Information Security",
+  "status": "completed",
+  "evidence_level": "engineering fixture with real concurrent SQLite workers and independently audited effects",
+  "metrics": {
+    "naive_preflight": {
+      "trials": 80,
+      "trials_with_violation": 60,
+      "authorized_completion_matches": 20,
+      "total_overspend": 400,
+      "duplicate_effects": 20,
+      "effects_after_revoke_ack": 40
+    },
+    "transactional_gateway": {
+      "trials": 80,
+      "trials_with_violation": 0,
+      "authorized_completion_matches": 80,
+      "total_overspend": 0,
+      "duplicate_effects": 0,
+      "effects_after_revoke_ack": 0
+    }
+  },
+  "findings": [
+    "Results were computed from committed SQLite effects, not agent claims.",
+    "The within-budget control checks legitimate completion instead of rewarding deny-all behavior.",
+    "The external-response-loss control deliberately exposes unresolved outcomes outside a shared transaction."
+  ],
+  "limitations": [
+    "Authored forced schedules and a deliberately naive baseline are integration controls, not representative threat prevalence.",
+    "Thread workers use separate real connections on one machine; no distributed network, model agent, Cedar engine, or production backend is tested.",
+    "The reference gateway's guarantees rely on one authoritative SQLite transaction boundary and trusted complete mediation.",
+    "Replicates are related stress trials; their zero observed failures do not imply a population failure-rate bound."
+  ],
+  "artifacts": [
+    "trials.csv",
+    "worker_traces.json",
+    "external_boundary.json"
+  ],
+  "proposal_claim_template": "On [N] authored local fault schedules, [controller] produced [observed violations] and [authorized completions] according to committed SQLite effects. This validates the pilot harness only; enterprise-agent security and distributed transfer remain untested.",
+  "schema_version": 1,
+  "profile": "pilot",
+  "seed": 2026,
+  "run_started_utc": "2026-10-31T17:03:11.826406+00:00",
+  "elapsed_seconds": 0.9511628750478849,
+  "python_peak_rss_bytes": 32555008,
+  "max_child_rss_bytes": 0,
+  "memory_measurement_limit": "Python and maximum child RSS are separate maxima, not total system peak. Local model server memory is excluded.",
+  "model_calls": 0,
+  "environment": {
+    "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "executable": "<WORKSPACE>/.venv-pilots/bin/python",
+    "system": "Darwin",
+    "release": "25.6.0",
+    "architecture": "arm64",
+    "physical_memory_bytes": 137438953472,
+    "dependencies": {
+      "numpy": "2.5.4",
+      "Pillow": "12.3.0",
+      "z3-solver": "4.16.0.0"
+    },
+    "executables": {
+      "git": "/opt/homebrew/bin/git",
+      "javac": "/Users/saurav.aryal_1/.jenv/shims/javac",
+      "java": "/Users/saurav.aryal_1/.jenv/shims/java",
+      "tesseract": "/opt/homebrew/bin/tesseract",
+      "ollama": "/usr/local/bin/ollama"
+    },
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "model_server_observation": {
+    "status": "not used"
+  },
+  "source_hashes": {
+    "pilots/__init__.py": "7542e3a76d06725e5ba1edb2c773602b44f74adc06ed8f500f084a9204b1e114",
+    "pilots/common.py": "6744acd4f518fa14310fecc3f5756183bb6cb7c366f442017cf942991067dc9f",
+    "pilots/experiments/__init__.py": "5dd5c0a0f5a4e569b9f54d0a61c1ae38b88b82979b030378331eaa9fe7c4fb9b",
+    "pilots/experiments/p01_verifier_shift.py": "bc1bc3150f97655e040ea7faadb311e292687e77cc1092aa5488da66aaf9485d",
+    "pilots/experiments/p02_revocation.py": "fe00c8cdc61a310216603298aed3cfdba6f3ccd14b5aa957d0393416f59f631e",
+    "pilots/experiments/p03_scope_ledger.py": "5cdf2646f1baadebea7be45ba0cd74d799237fc02085951aaa69e8773bcde4e8",
+    "pilots/experiments/p04_contract_gaps.py": "7e6ba7d1ef51a074020450736442202fb01d70698ce1410535cc3cc221aa7785",
+    "pilots/experiments/p05_deletion_audit.py": "b3afd7d22926538774cae886b8adce49d265d49889d9a491e1607e5237eb6e52",
+    "pilots/experiments/p06_kernel_search.py": "acb5c79b299e2c2dd6766b3aeb02307230fb171af71350136986d273d47e94ec",
+    "pilots/experiments/p07_grounding.py": "61d9cc8f118a33b3b3a024b3eec2a74dbc09501f6cbaf11a4fdf2e012bfc8715",
+    "pilots/experiments/p08_visual_encoding.py": "b9eca886919334c446e5832480a81bc6e9875535c4443e88cc0c5894fa29e9a7",
+    "pilots/experiments/p09_av_coherence.py": "65cfc7c0fbbcd1b749cd4790165b8bdfc4801b8733d5bf2da184b74ba2d22e48",
+    "pilots/optional/__init__.py": "f4020d55f954d4469aec8db8178cbfd36185f0f50dd22abcbb57c795a4bc5944",
+    "pilots/optional/mlx_deletion.py": "13782858cdbd92d97d3bf5741946782767d332d943d5783687ac9e4308b1cbd2",
+    "pilots/run.py": "6f0a0da3f1b0dfaf61f73e8d74a410b305ff0a2a600aeeb18502e2d1cfe76f4f",
+    "pilots/tests/__init__.py": "8e149a407ec58f16cbee0d8bb2839205b761967b9c9174c1df2641226f61dd93",
+    "pilots/tests/test_adapter_preparation.py": "8ad1bd5fc4c7fcbbae258b4f7ec8bfe3aa4d1c0110a0ab019ab231754ca9a889",
+    "pilots/tests/test_evidence.py": "378f9531fa86405e91f68d934cfdf29864319421a20600e1e1c9642afa59dc90",
+    "pilots/tests/test_p03_toolchain_preflight.py": "356296822effc1c36a75f8a1ce2a14b849f50858231ba2ddf470e7a5152eda9c"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "arm": "naive_preflight",
+    "scenario": "external_response_lost",
+    "attempts": 2,
+    "actual_external_effects": 2,
+    "unresolved_operations": 0,
+    "reserved_amount": 0,
+    "decisions": [
+      "response_lost_unknown",
+      "response_lost_unknown"
+    ],
+    "confirmed_task_completion": false,
+    "interpretation": "Boundary control: refusing an unsafe retry leaves an unknown outcome; no exactly-once claim for arbitrary external endpoints."
+  },
+  {
+    "arm": "transactional_gateway",
+    "scenario": "external_response_lost",
+    "attempts": 2,
+    "actual_external_effects": 1,
+    "unresolved_operations": 1,
+    "reserved_amount": 40,
+    "decisions": [
+      "response_lost_unknown",
+      "unknown_no_retry"
+    ],
+    "confirmed_task_completion": false,
+    "interpretation": "Boundary control: refusing an unsafe retry leaves an unknown outcome; no exactly-once claim for arbitrary external endpoints."
+  }
+]
