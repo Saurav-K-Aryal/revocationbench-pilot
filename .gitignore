@@ -19,3 +19,6 @@ runs/reproduced*/
 # Manuscript sources are distributed only inside overleaf.zip.
 *.tex
 *.bib
+
+# Public compiled manuscript preview.
+!paper.pdf

@@ -54,3 +54,7 @@ Five primary sources were verified on October 31, 2026: AgentDojo and Progent on
 Subject: **Computer Science and Mathematics**. Topic within Subject: **Security Systems**.
 
 Optional MDPI Topic: [Recent Advances in Security, Privacy, and Trust, 2nd Edition](https://www.mdpi.com/topics/044g6136h2). The detailed classification is in `PREPRINTS_METADATA.txt`. These metadata do not imply a submission.
+
+## Manuscript downloads
+
+[Compiled PDF](paper.pdf) · [Overleaf ZIP](overleaf.zip). The ZIP contains the editable manuscript, bibliography and figures.
