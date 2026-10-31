@@ -1,12 +1,12 @@
 # RevocationBench pilot paper
 
-This is an author-review manuscript package for Saurav K. Aryal, Howard University. It reports a small local SQLite concurrency pilot, not a completed agent benchmark or a distributed authorization guarantee. No faculty coauthor, funding award, venue acceptance, or publication DOI is asserted.
+This repository reports a small local SQLite concurrency pilot, not a completed agent benchmark or a distributed authorization guarantee.
 
 Repository: https://github.com/Saurav-K-Aryal/revocationbench-pilot.
 
 ## Manuscript
 
-Upload `draft.tex`, `refs.bib`, and `figures/` to Overleaf, select `draft.tex` as the main file, and use pdfLaTeX with BibTeX. The document uses `acmart` in `manuscript,screen,nonacm` mode. `main.tex` is an optional wrapper. `references.bib` is an identical convenience copy; the manuscript reads `refs.bib` only. Do not cite both copies.
+Download and extract [`overleaf.zip`](overleaf.zip). Upload its `draft.tex`, `refs.bib`, and `figures/` to Overleaf, select `draft.tex` as the main file, and use pdfLaTeX with BibTeX. The document uses `acmart` in `manuscript,screen,nonacm` mode. Inside the ZIP, `references.bib` is an identical convenience copy; the manuscript reads `refs.bib` only. Do not cite both copies.
 
 The sections are Abstract, Introduction and Background, Methods, Results, Future Work, and Conclusion. The manuscript identifies AI assistance and requires author review before submission. The future work distinguishes actual experiments from proposed real-agent, Cedar, and distributed-fault integrations.
 

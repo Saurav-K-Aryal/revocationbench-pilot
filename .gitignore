@@ -15,3 +15,7 @@ __pycache__/
 *.synctex.gz
 results/new*/
 runs/reproduced*/
+
+# Manuscript sources are distributed only inside overleaf.zip.
+*.tex
+*.bib
